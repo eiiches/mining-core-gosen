@@ -14,6 +14,10 @@ public class GosenTokenizer extends Tokenizer {
 	private final StringTagger tagger;
 	private final Pattern includePos;
 	
+	public GosenTokenizer() {
+		this(null);
+	}
+	
 	public GosenTokenizer(final File dictionaryDir) {
 		this(dictionaryDir, null);
 	}
