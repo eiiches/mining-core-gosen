@@ -3,6 +3,8 @@ mining-core-gosen
 
 A japanese tokenizer library for mining-core.
 
+WARNING: This library is still in alpha, and the APIs may be drastically changed.
+
 
 Usage
 -----
